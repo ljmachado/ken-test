@@ -1,0 +1,219 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  height: 45px;
+  color: #ffffff;
+  background: #00a132;
+  padding-top: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-group {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.form-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+i.help-icon {
+  padding-left: 9px;
+  padding-top: 10px;
+  width: 40px;
+  font-weight: 400;
+  font-size: 40px;
+  position: absolute;
+  display: block;
+  text-align: center;
+  z-index: 2;
+}
+
+label {
+  font-size: 30px;
+  float: left;
+  width: 100px;
+  margin-top: 10px;
+  color: #454545;
+}
+
+.form-control {
+  color: #595252;
+  text-align: center;
+  font-size: 30px;
+  width: 400px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  clear: left;
+  vertical-align: middle;
+  margin: 3px;
+  border-radius: 2px;
+  width: 400px;
+  line-height: 60px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn > i {
+  margin-left: 12px;
+  margin-top: 9px;
+  padding: 6px;
+  font-size: 25px;
+  position: absolute;
+  display: block;
+  text-align: center;
+  z-index: 2;
+  border-radius: 100%;
+  border: 2px solid #f4f4f5;
+}
+
+.btn-half {
+  clear: none;
+  display: initial;
+  width: 200px;
+}
+
+.btn-green {
+  color: #ffffff;
+  background: #00a132;
+  border: 1px solid #00a132;
+}
+
+.btn-silver {
+  background: -webkit-linear-gradient(top, #ffffff, #fbfbfc, #f7f7f8);
+  background: linear-gradient(to top, #f7f7f8, #fbfbfc, #ffffff);
+  border-radius: 14px;
+  border: 1px solid #cfcfcf;
+  color: #462323;
+  font-size: 17px;
+}
+
+.btn-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space-up {
+  margin-top: 30px;
+}
+
+.forgot-password {
+  font-size: 18px;
+}
+
+.btn-green:hover {
+  background: #10b142;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.pull-left {
+  float: left;
+  width: 60%;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.photo {
+  margin-left: 10%;
+  width: 20%;
+  float: left;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.biometry {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10%;
+  color: #595252;
+  width: 20%;
+  float: left;
+}
+
+.biometry-container {
+  border: 2px solid #A9A2A2;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.info {
+  margin-left: 15%;
+  width: 45%;
+  float: left;
+  font-size: 30px;
+}
+
+.info p {
+  color: #454545;
+}
+
+.info span {
+  color: #111111;
+}
+
+.info img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;;
+  height: 200px;
+}
+
+.header div {
+  display: block;
+  width: 33.33333%;
+  float: left;
+}
+
+.header img {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: 100px;
+}
+
+.header {
+  height: 120px;
+}
+
+.ken {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .form-center > input {
+    width: 100%;
+  }
+
+  .form-center > button {
+    width: 100%;
+  }
+}

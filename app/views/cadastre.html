@@ -1,0 +1,25 @@
+<h1 class="title text-center">Cadastro</h1>
+
+<div class="photo">
+  <img ng-show="photo" ng-src="{{photo}}" alt="Imagem não encontrada">
+  <img ng-hide="photo" src="images/avatar.jpg">
+</div>
+
+<form class="form-center pull-left" ng-submit="cadastre(name, photo, cpf)">
+  <div class="form-group">
+    <label for="name">Nome </label>
+    <input id="name" class="form-control text-left" type="text" ng-model="name">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="Foto">Foto </label>
+    <input id="name" class="form-control text-left" type="text" ng-model="photo">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="cpf">CPF </label>
+    <input id="cpf" class="form-control text-left" type="text"  ng-model="cpf">
+  </div>
+  <br>
+  <button class="btn btn-half btn-green" type="submit">Cadastrar</button>
+</form>

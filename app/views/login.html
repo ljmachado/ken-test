@@ -1,0 +1,16 @@
+<h1 class="title text-center">Acesso ao Sistema</h1>
+
+<form class="form-center" ng-submit="login(cpf, password)">
+  <div class="form-group">
+      <i class="fa fa-user help-icon"></i>
+      <input class="form-control" type="text" placeholder="<< CPF >>" align="middle" ng-model="cpf">
+  </div>
+  <br>
+  <div class="form-group">
+      <i class="fa fa-lock help-icon"></i>
+      <input class="form-control" type="password" ng-model="password">
+  </div>
+  <br>
+  <button class="btn btn-half btn-green" type="submit">OK</button>
+  <button class="btn btn-half btn-green forgot-password" type="submit">Esqueci minha senha</button>
+</form>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Ken Test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/jpg" href="images/biometry.jpg">
+  </head>
+  <body ng-app="kenTestApp">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="header">
+      <div><img src="images/cnpj.png" alt="CNJ"></div>
+      <div><img src="images/sinesp.png" alt="SINESP"></div>
+      <div><img src="images/ministerio_justica.jpg" alt="Ministério da Justiça"></div>
+    </div>
+
+    <img src="images/ken.png" alt="Ken" class="ken">
+
+    <div ui-view></div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/a0-angular-storage/dist/angular-storage.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/login.js"></script>
+    <script src="scripts/controllers/menu.js"></script>
+    <script src="scripts/controllers/cadastre.js"></script>
+    <script src="scripts/controllers/identify.js"></script>
+    <script src="scripts/services/auth.js"></script>
+    <script src="scripts/services/user.js"></script>
+    <script src="scripts/services/biometry.js"></script>
+</body>
+</html>
