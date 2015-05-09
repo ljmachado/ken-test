@@ -1,10 +1,7 @@
-<div class="text-center">
-    <a class="btn btn-silver btn-center space-up" ui-sref="cadastre">
-        <i class="fa fa-user-plus"></i> CADASTRAR
-    </a>
-</div>
-<div class="text-center">
-    <a class="btn btn-silver btn-center space-up" ui-sref="identify">
-        <i class="fa fa-user"></i> IDENTIFICAR BIOMETRICAMENTE
-    </a>
+<div class="menu" role="tabpanel">
+  <ul class="nav nav-tabs nav-justified" role="tablist">
+    <li role="presentation" ui-sref-active="active"><a ui-sref=".cadastre">Cadastrar</a></li>
+    <li role="presentation" ui-sref-active="active"><a ui-sref=".identify">Identificar Biometricamente</a></li>
+  </ul>
+  <div ui-view class="tab-content"></div>
 </div>

@@ -4,10 +4,12 @@ body {
 }
 
 .title {
-  height: 45px;
+  height: 60px;
   color: #ffffff;
   background: #00a132;
   padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .text-center {
@@ -206,6 +208,37 @@ label {
   position: absolute;
   left: 10px;
   bottom: 10px;
+}
+
+.menu {
+  height: 60px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul.nav li > a {
+  font-size: 30px;
+  color: #00a132;
+}
+
+ul.nav li > a:hover {
+  color: #ffffff;
+  background: #00a132;
+}
+
+ul.nav li.active > a {
+  color: #ffffff;
+  background: #00a132;
+}
+
+ul.nav li.active > a:hover {
+  color: #ffffff;
+  background: #00a132;
+}
+
+.tab-content {
+  margin-top: 60px;
 }
 
 @media (max-width: 600px) {
