@@ -4,11 +4,12 @@ angular
     .module('kenTestApp', [
         'ngResource',
         'ui.router',
-        'angular-storage'
+        'angular-storage',
+        'ui.bootstrap'
     ])
     .config(function($httpProvider, $urlRouterProvider, $stateProvider) {
         $urlRouterProvider
-            .when('/menu', '/menu/cadastre')
+            .when('/menu', '/menu/identify')
             .otherwise("/")
 
         $stateProvider

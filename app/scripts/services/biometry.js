@@ -8,5 +8,8 @@ angular
         service.create = function(profile) {
             return $http.post('/api/biometry/create', profile);
         };
-    }]);
 
+        service.identify = function() {
+            return $http.post('/api/biometry/identify');
+        };
+    }]);

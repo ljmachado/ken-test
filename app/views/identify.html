@@ -1,13 +1,26 @@
 <div class="biometry">
   <p>SCANEAR E IDENTIFICAR</p>
   <br>
-  <div class="biometry-container">
+  <div class="biometry-container" ng-click="identify()">
     <img src="images/biometry.jpg">
   </div>
 </div>
 
 <div class="info">
-  <img src="images/avatar.jpg" alt="">
+  <img ng-hide="photo" src="images/avatar.jpg">
+  <img ng-show="photo" ng-src="{{photo}}">
   <p>Nome: <span>{{name}}</span></p>
   <p>CPF: <span>{{cpf}}</span></p>
 </div>
+
+<script type="text/ng-template" id="error_modal">
+  <div class="modal-header">
+    <h3 class="modal-title">Erro ao identificar biometria</h3>
+  </div>
+  <div class="modal-body">
+    <alert type="danger">Não foi possível encontrar uma biometria compatível dentro do banco de dados</alert>
+  </div>
+  <div class="modal-footer">
+    <button class="btn-alert btn-green" ng-click="close()">OK</button>
+  </div>
+</script>

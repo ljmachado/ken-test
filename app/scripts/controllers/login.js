@@ -12,7 +12,7 @@ angular.module('kenTestApp')
                 .then(function(response) {
                     credentials.access_token = response.data.access_token;
                     $user.setCurrentUser(credentials);
-                    $state.go('menu');
+                    $state.go('menu.identify');
                 }, function() {
                     alert('Não foi possível autenticar, certifique-se de que você digitou o CPF e senha corretamente.')
                 });
